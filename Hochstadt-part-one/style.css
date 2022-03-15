@@ -1,0 +1,52 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: #70a48b;
+}
+.Nav{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: space-around;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 1em;
+}
+
+.detroitButton{
+    display: flex;
+    color: white;
+    background-color: #70a48b;
+    border:3px solid black;
+    padding: 5px 25px 5px 5px;
+    border-radius: 1em;
+    justify-content: left;
+}
+#donation{
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+    
+}
+.grandButton{
+    display: flex;
+    color: white;
+    background-color: #70a48b;
+    border:3px solid black;
+    padding: 5px 25px 5px 5px;
+    border-radius: 1em;
+.twoButtons{
+    
+}
+}
+@media screen and (min-width: 480px){
+
+}
+
+footer{
+    display: flex;
+    background-color: #70a48b;
+    margin: auto;
+}
