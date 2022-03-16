@@ -3,50 +3,94 @@ body{
 }
 header{
     background-color: #70a48b;
+    border-radius: 10px;
+
+    
 }
+
 .Nav{
     display: flex;
     color: white;
     flex-direction: row;
-    justify-content: end;
-    justify-content: space-around;
-    margin: auto;
+    justify-content:space-between;
     border: 2px solid white;
     border-radius: 1em;
+    padding: 2px;
+    }
+
+    .nav "About US", "Contact"{
+        margin:25em ;
+        display: inline-block;
+    }
+    #donation{
+        background-color: black;
+        border-radius: 1em;
+        padding:2px;
+        justify-content:center ;
+      
+
+    
+    }
+
+  ul, li{
+    display: flexbox;
+    justify-content: flex-end;
+    text-align: right;
+    list-style-type: none;
+    margin: 2px;
+    padding: 25px;
+    width:33%;
 }
+
 
 .detroitButton{
     display: flex;
     color: white;
     background-color: #70a48b;
-    border:3px solid black;
-    padding: 5px 25px 5px 5px;
+    border:2px solid black;
+    width: 35em;
+    padding: 5px;
+    margin: 2px 10px 10px 5px;
     border-radius: 1em;
     justify-content: left;
 }
-#donation{
-    background-color: black;
-    border-radius: 1em;
-    padding: 1em;
-    
-}
+
 .grandButton{
     display: flex;
     color: white;
     background-color: #70a48b;
-    border:3px solid black;
-    padding: 5px 25px 5px 5px;
+    border:2px solid black;
+    width: 35em;
+    padding: 5px 5px 5px 5px; 
+    margin: 2px 10px 10px 5px;
     border-radius: 1em;
-.twoButtons{
-    
+    justify-content: left;
 }
+.pix{
+    display: flex;
+    justify-content: left;
 }
-@media screen and (min-width: 480px){
 
-}
-
-footer{
+footer {
     display: flex;
     background-color: #70a48b;
-    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    position:fixed;
+    bottom: 1px;
+    
 }
+@media screen and (min-width: 768px){
+ 
+    footer {
+        display: flex; 
+        width: 100%;
+        height: fit-content;
+        position:fixed;
+        bottom: 1px;  
+
+    }
+    
+    }
+   
