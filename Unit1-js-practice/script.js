@@ -38,4 +38,9 @@ console.log(`2) ${travelOptions[1]}`);
 console.log(`3) ${travelOptions[2]}`);
 console.log(`4) ${travelOptions[3]}`);
 
+let travelType = ["foot", "bike", "car","airplane"];
+let travelType = prompt("How would you like to travel?");
+
+
+
 
