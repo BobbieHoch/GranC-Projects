@@ -91,6 +91,8 @@ let cost = 0;
     }
   
     console.log(`Traveling ${distance} miles by ${travelType} took ${time} hours and cost $${cost}!`);
-    
+
+ 
+
     
 
