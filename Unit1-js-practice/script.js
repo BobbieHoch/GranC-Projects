@@ -45,7 +45,7 @@ let travelType = prompt ("How would you like to travel?");
 
 let distance = 100;
 let time = 0;
-let cost = 0
+let cost = 0;
 
     if (travelType ==="foot") {
         console.log("Walking is free! Speed is 3mph.");
@@ -69,7 +69,7 @@ let cost = 0
             console.log("Biking is free! Speed is 10 mph");
         cost = 0;
         time = distance / 10;
-        console.log(`Travel Type: ${travelType}`)
+        console.log(`Travel Type: ${travelType}`);
     }
         else if(travelType === "car")
         {
@@ -79,7 +79,7 @@ let cost = 0
         console.log(`Travel Type: ${travelType}`)
     }
     else if(travelType === "airplane"){
-        let passengerCount = prompt("How manuy passengers?)");
+        let passengerCount = prompt("How many passengers?)");
         cost = 0;
         console.log("Flying is $0.10/mi. Spead is 400mph.");
         cost = 0.10*distance*passengerCount;
@@ -91,5 +91,6 @@ let cost = 0
     }
   
     console.log(`Traveling ${distance} miles by ${travelType} took ${time} hours and cost $${cost}!`);
+    
     
 
