@@ -65,11 +65,7 @@ let cost = 0;
             cost = 0;
          }
             time = distance /10;
-    }   
-            console.log("Biking is free! Speed is 10 mph");
-            cost = 0;
-            time = distance / 10;
-            console.log(`Travel Type: ${travelType}`);
+    
     
         }  else if(travelType === "car"){
             console.log("Driving is $0.25/mi. Speed is 60mph.");
@@ -148,7 +144,7 @@ let cost = 0;
     //     console.log("You have paid the parking meter.")
 
 
-    }
+    
 
 
 
