@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* box-sizing: border-box; */
+}
+body{
+
+    color: #555;
+    background-color: #5B9EED;
+    width:55%;
+    height:100%;
+    margin:150px 250px;
+    align-content: center;
+    margin:30px auto
+    border-radius: 2px;
+}
+
+.list-wrapper{
+  width: 90%;
+  max-width: 400px;
+  margin: 30px auto;
+  justify-content: center;
+    
+}
+
+/* List component */
+.list{
+    background-color: #FFF;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.30);
+}
+
+    .list .list-item{
+        display: flex;
+        padding: 10px 5px;
+    }
+    .list .list-item:not(:last-child){
+        border-bottom: 1px solid #EEE;
+    }
+
+        /*list item image wrapper*/
+        .list .list-item__image{
+            flex-shrink: 0;
+            height: 80%;
+            display:flex;
+            justify-content: center;
+
+        }
+            .list .list-item__image img{
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+            }
+
+        /*list item content*/
+        .list .list-item__content{
+            flex-grow: 1;
+            padding: 0 20px;
+        }
+            .list .list-item__content h4{
+                margin: 0;
+                font-size: 18px;
+                margin-top: 15px;
+            }
+
+            .list .list-item__content p{
+                margin-top: 5px;
+                color: #AAA;
+                margin-bottom: 0;
+            }
+        @media only screen and(min-width: 768px) {
+            /* User Card */
+            .list-item{
+                width: 1200px;
+                
+            /* */User list*/ */
+            .list{
+                display:flex
+                justify-content:space-between;
+            }
+           
+            }
+            
+        }
+        
