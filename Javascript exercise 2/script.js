@@ -12,7 +12,7 @@ if
     {console.log (name1 + " has the longest name.");
 }
 else if
-    (name2Size >name1Size >  name3Size)
+    (name2Size > name1Size >  name3Size)
     {console.log(name2 + " has the longest name.");
 }
 else if
