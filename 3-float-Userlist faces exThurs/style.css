@@ -1,5 +1,5 @@
 *{
-    margin:0px;
+   box-sizing: border-box; margin:0px;
     padding:0px;
     /* box-sizing: border-box; */
 }
@@ -9,33 +9,31 @@ body{
     background-color: #5B9EED;
     width:55%;
     height:100%;
-    margin:150px 250px;
     align-content: center;
-    margin:30px auto
-    border-radius: 2px;
-}
 
-.list-wrapper{
-  width: 90%;
-  max-width: 400px;
-  margin: 30px auto;
-  justify-content: center;
-    
+    /* border-radius: 12px; */
+    border:2px solid rgb(146, 146, 146);
 }
-
+.container{
+    position: center;
+}
 /* List component */
 .list{
+    /* display:flex;
+    justify-content: center; */
     background-color: #FFF;
     list-style: none;
-    margin: 0;
+    margin: 0px;
     padding: 15px;
-    border-radius: 2px;
+    border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.30);
 }
 
     .list .list-item{
         display: flex;
         padding: 10px 5px;
+      
+
     }
     .list .list-item:not(:last-child){
         border-bottom: 1px solid #EEE;
@@ -74,7 +72,8 @@ body{
         @media only screen and(min-width: 768px) {
             /* User Card */
             .list-item{
-                width: 1200px;
+                width: 60%;
+                height:45%
                 
             /* */User list*/ */
             .list{
