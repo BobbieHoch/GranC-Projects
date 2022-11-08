@@ -1,4 +1,4 @@
-/ Our todo list Array.
+// Our todo list Array.
 
 const form = document.querySelector('#form');
 const todoList = document.querySelector('.todo-list');
@@ -59,7 +59,7 @@ function addTodoToList(todoValue) {
 function handleDeleteTodo(event) {
   //Get the parent element fo the delete button. This is the li element that the button is in.
   const todoListItem = event.target.parentElement;
-  event.terget.style.color = 'blue':
+  event.target.style.color = 'blue';
 
   //Remove the todo list item from the DOM
   todoListItem.remove();
@@ -67,6 +67,6 @@ function handleDeleteTodo(event) {
 }
 
 function randomId() {
-  const uint32 = window.crypto.getRandomValues(new Uint32Array(1))[0];
-  return uint32.toString(16);
+  const unit32 = window.crypto.getRandomValues(new unit32Array(1))[0];
+  return unit32.toString(16);
 }
