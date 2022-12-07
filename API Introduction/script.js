@@ -7,16 +7,16 @@ fetch('https://grandcircusco.github.io/demo-apis.wrong.json')
 .catch((error))
 
 //Async function
-async functon fetcher(){
+async function fetcher(){
     const promise = await fetch(
-        'https://grandscircusco.githib.io/demo-apis/donuts.json)
+        'https://grandscircusco.githib.io/demo-apis/donuts.json')
 }
 
 
 //Fetch requests
-fetch ('https://grandscircusco.githib.io/demo-apis/donuts.json)
+fetch ('https://grandscircusco.githib.io/demo-apis/donuts.json')
 
-.then((res)) => res.json())
+  .then((res)) => res.json();
 then((jsonData) => {
     const donutlist = documnet.createElement ('ul')
 })
