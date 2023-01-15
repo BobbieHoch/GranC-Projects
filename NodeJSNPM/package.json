@@ -1,0 +1,17 @@
+{
+  "name": "nodejsnpm",
+  "version": "1.0.0",
+  "description": "\"Node testing npm\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "author": "BobbieHoch",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

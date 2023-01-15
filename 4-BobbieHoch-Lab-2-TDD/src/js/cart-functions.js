@@ -11,7 +11,9 @@ function isSufficientPayment(payment, total) => payment >= total;
 function calculateTotal(itemsArray)
     
 //Function Four
-function addItem( itemsArray, name, price) [ ];
+function addItem(itemsArray, name, price) {
+  
+} ;
 
 
 //Function Five

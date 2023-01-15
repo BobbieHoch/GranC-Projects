@@ -14,26 +14,16 @@ describe ("calculateChange", () => {
 });
 
 test('When payment is 13.03 and total is 12.3 than change will be 0.73', () => {
-    //Arrange
     const total =12.32;
     const payment =13.03;
-  
-   //Act
    const change = calculateChange(payment, total);
-   
-   //Assert
    expect(change).toBeCloseTo(0.73);
 });
 
 test('When payment is 18  and total is 12.36 than change will be 5.64', () => {
-  //Arrange
   const total =12.36;
   const payment =18;
-
- //Act
  const change = calculateChange(payment, total);
- 
- //Assert
  expect(change).toBeCloseTo(5.64);
 
 });
